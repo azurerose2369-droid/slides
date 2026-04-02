@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プレゼン資料 ／ @azurerose2369</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #0a0a14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+    color: #fff;
+    gap: 32px;
+    padding: 40px 20px;
+  }
+  h1 {
+    font-size: 18px;
+    color: rgba(255,255,255,.5);
+    letter-spacing: 0.1em;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 480px;
+  }
+  a.card {
+    display: block;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 16px;
+    padding: 28px 32px;
+    text-decoration: none;
+    color: #fff;
+    transition: background .2s, transform .2s;
+  }
+  a.card:hover {
+    background: rgba(255,255,255,.1);
+    transform: translateY(-2px);
+  }
+  .card-label {
+    font-size: 11px;
+    color: rgba(255,255,255,.4);
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+  }
+  .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .card-sub {
+    font-size: 13px;
+    color: rgba(255,255,255,.5);
+    margin-top: 8px;
+  }
+  footer {
+    font-size: 12px;
+    color: rgba(255,255,255,.25);
+  }
+</style>
+</head>
+<body>
+  <h1>PRESENTATION</h1>
+  <div class="cards">
+    <a class="card" href="slide-15min.html">
+      <div class="card-label">Claude Code × スライド制作</div>
+      <div class="card-title">15分でできた</div>
+      <div class="card-sub">時間・手順・はじめ方</div>
+    </a>
+    <a class="card" href="slide-x-change.html">
+      <div class="card-label">Claude Code × X</div>
+      <div class="card-title">Xがこう変わった</div>
+      <div class="card-sub">導入前後の変化レポート</div>
+    </a>
+  </div>
+  <footer>@azurerose2369 ／ 2026</footer>
+</body>
+</html>
